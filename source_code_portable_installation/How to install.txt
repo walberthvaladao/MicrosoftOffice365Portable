@@ -1,0 +1,11 @@
+About the application
+Application developed using Electron. Packaged using AppImageTools. It basically opens the Microsoft Office 365 login screen.
+
+1. Download the file Microsoft_Office_365_Portable_20250715-00h30 Latest.
+2. Extract it and open the extracted folder.
+3. Right-click the Install.bat file and run it as administrator.
+4. The application has been installed successfully.
+5. Delete the folder Microsoft_Office_365_Portable_20250715-00h30 and the file Microsoft_Office_365_Portable_20250715-00h30.zip, as they are no longer needed.
+
+Video showing how to install:
+https://youtu.be/DAcmosUJKyM
