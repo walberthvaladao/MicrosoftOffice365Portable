@@ -1,15 +1,17 @@
 Set WshShell = WScript.CreateObject("WScript.Shell")
 
+startMenuPath = WshShell.SpecialFolders("StartMenu")
 userProfile = WshShell.ExpandEnvironmentStrings("%USERPROFILE%")
 appDir = userProfile & "\AppData\Local\MicrosoftOffice365"
 
-desktopPath = WshShell.SpecialFolders("Desktop")
-shortcutPath = desktopPath & "\Microsoft Office 365.lnk"
-
-targetPath = appDir & "\Microsoft Office 365.exe"
-
-Set shortcut = WshShell.CreateShortcut(shortcutPath)
-shortcut.TargetPath = targetPath
+Set shortcut = WshShell.CreateShortcut(startMenuPath & "\Programs\Microsoft Office 365.lnk")
+shortcut.TargetPath = appDir & "\Microsoft Office 365.exe"
 shortcut.WorkingDirectory = appDir
-shortcut.IconLocation = targetPath
+shortcut.IconLocation = appDir & "\Microsoft Office 365.exe"
 shortcut.Save
+
+Set shortcut2 = WshShell.CreateShortcut(startMenuPath & "\Programs\Desinstalar Microsoft Office 365 (Uninstall).lnk")
+shortcut2.TargetPath = appDir & "\Uninstall.bat"
+shortcut2.WorkingDirectory = appDir
+shortcut2.IconLocation = appDir & "\microsoft-office-365-uninstall.ico"
+shortcut2.Save
