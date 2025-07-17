@@ -28,5 +28,6 @@ echo -------------------------------------------------------
 copy "%STARTMENU%\Microsoft Office 365.lnk" "%DESKTOPSHORTCUT%" > NUL 2>&1
 
 echo (pt-br) Aplicativo instalado com sucesso! A pasta que você baixou não é mais necessária, você pode apagá-la
-echo (en) Application installed successfully! The folder you downloaded is no longer needed, you can delete it.
+echo (en) Application installed successfully! The folder you downloaded is no longer needed, you can delete it
+
 cscript //nologo "%~dp0microsoftoffice365-msgbox.vbs"

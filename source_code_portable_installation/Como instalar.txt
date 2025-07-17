@@ -1,11 +1,20 @@
 Sobre a aplicação
-Aplicação desenvolvida usando Electron. Empacotada usando Eléctron Builder. Ela basicamente abre a tela de login do Microsoft Office 365.
 
-1. Baixe o arquivo Microsoft_Office_365_Portable_20250715-00h30 Latest.
+Aplicação desenvolvida com Electron e empacotada com Electron Builder.
+O aplicativo é um lançador multiplataforma que abre a tela de login do Microsoft Office 365 diretamente em uma janela integrada ao sistema, facilitando o acesso rápido e organizado ao serviço.
+Esta versão foi empacotada no formato portable para Windows, permitindo que o aplicativo seja executado diretamente sem a necessidade de instalação tradicional.
+
+Como instalar o aplicativo
+
+1. Baixe o arquivo Microsoft_Office_365_Portable_20250715-00h30.
 2. Descompacte-o e abra a pasta extraída.
-3. Clique com o botão direito no arquivo Install.bat e o execute como administrador.
+3. Execute o arquivo Install.bat, caso a instalação não ocorra corretamente, clique com o botão direito no arquivo Install.bat e o execute como administrador.
 4. O aplicativo foi instalado com sucesso.
 5. Apague a pasta Microsoft_Office_365_Portable_20250715-00h30 e o arquivo Microsoft_Office_365_Portable_20250715-00h30.zip, pois não são mais necessários.
 
-Vídeo ensinando a instalar:
-https://youtu.be/DAcmosUJKyM
+Vídeo ensinando a instalar: https://youtu.be/WJ28NRw_8SI 
+
+Como desinstalar o aplicativo
+
+1. Abra o Menu Iniciar e pesquise Desinstalar Microsoft Office 365 (Uninstall).
+2. Execute esse aplicativo. Ele irá desinstalar o Microsoft Office 365 Portable.
