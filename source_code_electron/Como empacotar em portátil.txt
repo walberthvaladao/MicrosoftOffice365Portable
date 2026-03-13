@@ -2,4 +2,19 @@ npm install electron --save-dev
 npm install electron-builder --save-dev
 npm install electron-settings
 npm start
-electron-builder --win portable
+electron-builder --win portable ou npm run build:win
+
+------------------------------------------------
+
+# Instala a versão 35 do Electron (ou a mais recente estável)
+npm install electron@^35.0.0 --save-dev
+
+# Atualiza o builder para garantir que ele saiba empacotar a v35
+npm install electron-builder@latest --save-dev
+
+# Garante que o settings esteja na versão mais atual
+npm install electron-settings@latest
+
+npm install
+
+npm run build:win

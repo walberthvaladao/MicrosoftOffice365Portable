@@ -18,3 +18,12 @@ How to uninstall the application
 
 1. Open the Start Menu and search for Desinstalar Microsoft Office 365 (Uninstall).
 2. Run this application. It will uninstall Microsoft Office 365 Portable.
+
+
+About the interface
+
+You can zoom in or out if you want to increase or decrease the size of the interface elements.
+
+Ctrl+Win+Alt+I zoom in
+Ctrl+Win+Alt+O zoom out
+Ctrl+Win+Alt+P reset zoom to standard

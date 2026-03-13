@@ -1,6 +1,6 @@
 @echo off
 chcp 65001 >nul
-set APPDIR=%USERPROFILE%\AppData\Local\MicrosoftOffice365
+set APPDIR=%USERPROFILE%\AppData\Local\Programs\MicrosoftOffice365
 set DESKTOPSHORTCUT=%USERPROFILE%\Desktop\Microsoft Office 365.lnk
 set STARTMENU=%APPDATA%\Microsoft\Windows\Start Menu\Programs
 
