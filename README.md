@@ -23,9 +23,9 @@ Vídeo ensinando a instalar: https://youtu.be/WJ28NRw_8SI
 
 **Sobre a interface**
 
-Você pode dar zoom ou retirar se quiser aumentar ou diminuir os elementos da interface.
-ctrl+win+alt+i aumenta o zoom.
-ctrl+win+alt+o diminui o zoom.
+Você pode dar zoom ou retirar se quiser aumentar ou diminuir os elementos da interface.<br><br>
+ctrl+win+alt+i aumenta o zoom.<br>
+ctrl+win+alt+o diminui o zoom.<br>
 ctrl+win+alt+p voltar para o zoom padrão.
 
 ---
@@ -53,8 +53,8 @@ Video showing how to install: https://youtu.be/WJ28NRw_8SI
 
 **About the interface**
 
-You can zoom in or out if you want to increase or decrease the size of the interface elements.
+You can zoom in or out if you want to increase or decrease the size of the interface elements.<br><br>
 
-Ctrl+Win+Alt+I zoom in.
-Ctrl+Win+Alt+O zoom out.
+Ctrl+Win+Alt+I zoom in.<br>
+Ctrl+Win+Alt+O zoom out.<br>
 Ctrl+Win+Alt+P reset zoom to standard.
