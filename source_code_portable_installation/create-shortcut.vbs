@@ -2,7 +2,7 @@ Set WshShell = WScript.CreateObject("WScript.Shell")
 
 startMenuPath = WshShell.SpecialFolders("StartMenu")
 userProfile = WshShell.ExpandEnvironmentStrings("%USERPROFILE%")
-appDir = userProfile & "\AppData\Local\MicrosoftOffice365"
+appDir = userProfile & "\AppData\Local\Programs\MicrosoftOffice365"
 
 Set shortcut = WshShell.CreateShortcut(startMenuPath & "\Programs\Microsoft Office 365.lnk")
 shortcut.TargetPath = appDir & "\Microsoft Office 365.exe"
