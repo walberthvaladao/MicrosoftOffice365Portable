@@ -4,11 +4,11 @@ set APPDIR=%USERPROFILE%\AppData\Local\Programs\MicrosoftOffice365
 set DESKTOPSHORTCUT=%USERPROFILE%\Desktop\Microsoft Office 365.lnk
 set STARTMENU=%APPDATA%\Microsoft\Windows\Start Menu\Programs
 
-echo (pt-br) Desinstalar Microsoft Office 365 Port√°til
+echo (pt-br) Desinstalar Microsoft Office 365 Port·til
 echo (en) Uninstall Microsoft Office 365 Portable
 echo -------------------------------------------------------
 
-echo (pt-br) Apagar atalho da √°rea de trabalho
+echo (pt-br) Apagar atalho da ·rea de trabalho
 echo (en) Delete desktop shortcut
 echo -------------------------------------------------------
 
